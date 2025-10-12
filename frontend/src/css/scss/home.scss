@@ -1,0 +1,1533 @@
+.category-main {
+  margin-top: 16px;
+
+  border-top: 1px solid;
+  border-top-color: rgba($color: #000, $alpha: 0.5);
+
+  width: 100%;
+  height: auto;
+
+  .category-container {
+    padding: 0;
+    display: flex;
+
+    .category-left {
+      // background-color: rgb(191, 195, 191);
+
+      .left-catt {
+        margin-top: 40px;
+        margin-right: 16px;
+        width: 217px;
+        height: 344px;
+        // background-color: red;
+
+        .catt-text-wrapper {
+          width: 100%;
+          height: 24px;
+          margin-bottom: 16px;
+
+          justify-content: space-between;
+
+          .catt-text {
+            /* Title/16PX Regular */
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            color: var(--Text2, #000);
+          }
+        }
+
+        .catt-text {
+          /* Title/16PX Regular */
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          color: var(--Text2, #000);
+          margin-bottom: 16px;
+        }
+      }
+    }
+
+    .category-right {
+      margin-top: 40px;
+      margin-left: 45px;
+
+      .category-box-wrapper {
+        width: 96%;
+        height: 344px;
+
+        background: var(--Text2, #000);
+
+        .category-box-left {
+          margin-top: 58px;
+          margin-left: 64px;
+          width: 457px;
+          height: 220px;
+
+          // background-color: rgb(165, 128, 128);
+
+          .category-apple-logoText {
+            span {
+              margin-left: 14px;
+              text-align: center;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px; /* 150% */
+              color: var(--Text, #fafafa);
+            }
+          }
+
+          .catt-vaucher-text {
+            margin-top: 20px;
+            width: 294px;
+            height: 120px;
+
+            strong {
+              -webkit-text-stroke-width: 1px;
+              -webkit-text-stroke-color: #000;
+              font-family: Inter;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 60px; /* 125% */
+              letter-spacing: 1.92px;
+              color: var(--Text, #fafafa);
+            }
+          }
+
+          .catt-shop-btn {
+            margin-top: 22px;
+
+            .catt-shopBtn {
+              margin-right: 8px;
+              text-align: center;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px; /* 150% */
+              color: var(--Text, #fafafa);
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .category-box-right {
+          .catt-iphone-logo {
+            width: 496px;
+            height: 352px;
+
+            // background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .logo-img {
+              box-shadow: 0 7px 4px -4px rgb(21, 15, 15);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// FlashSales
+
+.flash-sales-main {
+  margin-bottom: 60px;
+  padding: 0;
+  margin-top: 140px;
+  height: 610px;
+
+  .flash-sales-wrapper {
+    width: 100%;
+    height: auto;
+
+    .flash-sales-top {
+      width: 1300px;
+      height: auto;
+
+      .sales-discount {
+        width: 1255px;
+        height: 105px;
+
+        .discount-left {
+          width: 600px;
+          height: 103px;
+
+          .discount-today {
+            width: 180px;
+            height: 40px;
+            margin-bottom: 20px;
+            .discount-red {
+              width: 20px;
+              height: 40px;
+              border-radius: 4px;
+              background: var(--Secondary-2, #db4444);
+            }
+
+            span {
+              margin-left: 16px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 20px; /* 125% */
+              color: var(--Secondary-2, #db4444);
+            }
+          }
+
+          .discount-date-wrapper {
+            width: 100%;
+            height: auto;
+
+            strong {
+              margin-top: 10px;
+              font-family: Inter;
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 48px; /* 133.333% */
+              letter-spacing: 1.44px;
+              color: var(--Text2, #000);
+            }
+            .dynamic-wrapper {
+              margin-left: 87px;
+              width: 302px;
+              height: 50px;
+
+              .dynamic-box {
+                width: 46px;
+                height: 20px;
+
+                span {
+                  margin: 0;
+                  margin-bottom: 4px;
+                  font-family: Poppins;
+                  font-size: 12px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 18px; /* 150% */
+                  color: var(--Text2, #000);
+                }
+
+                p {
+                  margin: 0;
+                  font-family: Inter;
+                  font-size: 32px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 30px; /* 93.75% */
+                  letter-spacing: 1.28px;
+                  color: var(--Text2, #000);
+                }
+              }
+
+              .equal {
+                margin-top: 5px;
+                margin-left: 13px;
+                height: 50px;
+                width: 46px;
+                color: #e07575;
+                font-size: 37px;
+              }
+            }
+          }
+        }
+
+        .discount-right {
+          padding-top: 60px;
+          width: 60px;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .flash-sales-bottom {
+      margin-left: 10px;
+      margin-top: 40px;
+      width: 100%;
+      height: 350px;
+
+      .products-wrapper {
+        justify-content: space-between; /* yoki center, gap berib ham ishlaydi */
+        gap: 20px; /* productlar orasida masofa bo‘ladi */
+        width: 100%;
+        height: 350px;
+
+        .product-box-main {
+          position: relative;
+          width: 270px;
+          height: 350px;
+
+          border-radius: 10px;
+          background: var(--Secondary, #0a0a0a19);
+
+          .discount-percentage {
+            margin-top: 12px;
+            margin-left: 12px;
+            width: 55px;
+            height: 26px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+
+            color: var(--Text, #fafafa);
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 150% */
+          }
+
+          .product-images {
+            width: 100%;
+            height: 200px; /* yoki sizga mos o‘lcham */
+            object-fit: contain; /* yoki cover */
+            background-color: transparent; /* shaffof fon */
+            display: inline;
+            margin: 0 auto;
+          }
+
+          .like-wiew {
+            position: absolute;
+            width: 34px;
+            height: 76px;
+            left: 220px;
+            top: 20px;
+
+            .like-view-icon {
+              width: 34px;
+              height: 34px;
+              border-radius: 50%;
+              background-color: rgba(255, 255, 255, 0.486);
+            }
+          }
+
+          .productName {
+            display: inline;
+            margin-left: 16px;
+            margin-top: 16px;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+          }
+
+          .product-price {
+            margin-left: 16px;
+            margin-top: 16px;
+
+            .exact-price {
+              color: var(--Secondary-2, #ed1111);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px; /* 150% */
+            }
+
+            .discount-price {
+              color: var(--Button, #00000052);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px; /* 150% */
+              text-decoration-line: line-through;
+            }
+
+            .sold-count {
+              width: 90px;
+              height: 30px;
+              margin-left: 60px;
+              cursor: pointer;
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              border-radius: 25px;
+              background: #ff5500bf;
+              box-shadow: 4px 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+              color: #fff;
+              font-family: Poppins;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+          }
+        }
+        //  product-box-main Hover
+        .product-box-main:hover {
+          transform: scale(1.04); /* butun kartani kattalashtiradi */
+          transition: transform 0.4s ease-in-out; /* sekinlik bilan */
+
+          img {
+            transform: scale(1.08); /* rasmni biroz kattalashtiradi */
+            transition: transform 0.5s ease-in-out;
+          }
+
+          .discount-percentage {
+            transform: scale(0.9); /* biroz kichiklashadi */
+            transition: transform 0.3s ease-in-out;
+          }
+
+          .like-wiew .like-view-icon {
+            transform: scale(0.9); /* u ham kichiklashadi */
+            transition: transform 0.3s ease-in-out;
+          }
+        }
+
+        .product-box:hover {
+          transform: translateY(-8px) scale(1.03); /* tepaga ko'tariladi va biroz kattalashadi */
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        .product-box:hover .product-b {
+          cursor: pointer;
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+
+    .view-all-products {
+      margin-top: 60px;
+      width: 100%;
+      height: 56px;
+
+      .view-all-butt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 234px;
+        height: 56px;
+
+        border-radius: 4px;
+        background: var(--Button2, #db4444);
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: 24px; /* 150% */
+        color: var(--Text, #fafafa);
+      }
+    }
+  }
+}
+
+//  CategoryList
+
+.category-list-main {
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: 313px;
+
+  .flash-sales-top {
+    width: 1300px;
+    height: auto;
+
+    .sales-discount {
+      width: 1255px;
+      height: 105px;
+
+      .discount-left {
+        width: 600px;
+        height: 103px;
+
+        .discount-today {
+          width: 180px;
+          height: 40px;
+          margin-bottom: 20px;
+          .discount-red {
+            width: 20px;
+            height: 40px;
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+          }
+
+          span {
+            margin-left: 16px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            color: var(--Secondary-2, #db4444);
+          }
+        }
+
+        .discount-date-wrapper {
+          width: 100%;
+          height: auto;
+
+          strong {
+            margin-top: 10px;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: 1.44px;
+            color: var(--Text2, #000);
+          }
+          .dynamic-wrapper {
+            margin-left: 87px;
+            width: 302px;
+            height: 50px;
+
+            .dynamic-box {
+              width: 46px;
+              height: 20px;
+
+              span {
+                margin: 0;
+                margin-bottom: 4px;
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 150% */
+                color: var(--Text2, #000);
+              }
+
+              p {
+                margin: 0;
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 93.75% */
+                letter-spacing: 1.28px;
+                color: var(--Text2, #000);
+              }
+            }
+
+            .equal {
+              margin-top: 5px;
+              margin-left: 13px;
+              height: 50px;
+              width: 46px;
+              color: #e07575;
+              font-size: 37px;
+            }
+          }
+        }
+      }
+
+      .discount-right {
+        padding-top: 60px;
+        width: 60px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .catt-wrapper {
+    margin-top: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* har qator 6 ustun */
+    gap: 20px;
+
+    .catt-box {
+      height: 145px;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease; /* animatsiya qo'shildi */
+    }
+
+    .catt-box:hover {
+      border-radius: 4px;
+      background: var(--Secondary-2, #db4444);
+
+      /* Categogy/5 */
+      // box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.05);
+
+      transform: translateY(-8px) scale(1.03); /* tepaga ko'tariladi va biroz kattalashadi */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+  }
+}
+
+// best-selling-products-main
+
+.best-selling-products-main {
+  margin-top: 70px;
+
+  .flash-sales-top {
+    width: 1300px;
+    height: auto;
+
+    .sales-discount {
+      width: 1255px;
+      height: 105px;
+
+      .discount-left {
+        width: 600px;
+        height: 103px;
+
+        .discount-today {
+          width: 180px;
+          height: 40px;
+          margin-bottom: 20px;
+          .discount-red {
+            width: 20px;
+            height: 40px;
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+          }
+
+          span {
+            width: 220px;
+            margin-left: 16px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            color: var(--Secondary-2, #db4444);
+          }
+        }
+      }
+
+      .discount-right {
+        padding-top: 60px;
+        width: 160px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .view-all {
+          width: 160px;
+          height: 56px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 4px;
+          background: var(--Button2, #db4444);
+
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+          color: var(--Text, #fafafa);
+        }
+      }
+    }
+  }
+
+  .products-wrapper {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    justify-content: space-between; /* yoki center, gap berib ham ishlaydi */
+    gap: 20px; /* productlar orasida masofa bo‘ladi */
+    width: 100%;
+    height: 350px;
+
+    .product-box-main {
+      position: relative;
+      width: 270px;
+      height: 350px;
+
+      border-radius: 10px;
+      background: var(--Secondary, #0a0a0a19);
+
+      .discount-percentage {
+        margin-top: 12px;
+        margin-left: 12px;
+        width: 55px;
+        height: 26px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 4px;
+        background: var(--Secondary-2, #db4444);
+
+        color: var(--Text, #fafafa);
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+      }
+
+      .product-images {
+        width: 100%;
+        height: 200px; /* yoki sizga mos o‘lcham */
+        object-fit: contain; /* yoki cover */
+        background-color: transparent; /* shaffof fon */
+        display: inline;
+        margin: 0 auto;
+      }
+
+      .like-wiew {
+        position: absolute;
+        width: 34px;
+        height: 76px;
+        left: 220px;
+        top: 20px;
+
+        .like-view-icon {
+          width: 34px;
+          height: 34px;
+          border-radius: 50%;
+          background-color: rgba(255, 255, 255, 0.486);
+        }
+      }
+
+      .productName {
+        display: inline;
+        margin-left: 16px;
+        margin-top: 16px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+      }
+
+      .product-price {
+        margin-left: 16px;
+        margin-top: 16px;
+
+        .exact-price {
+          color: var(--Secondary-2, #ed1111);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+        }
+
+        .discount-price {
+          color: var(--Button, #00000052);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+          text-decoration-line: line-through;
+        }
+
+        .sold-count {
+          width: 90px;
+          height: 30px;
+          margin-left: 60px;
+          cursor: pointer;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          border-radius: 25px;
+          background: #ff5500bf;
+          box-shadow: 4px 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+          color: #fff;
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+    }
+    //  product-box-main Hover
+    .product-box-main:hover {
+      transform: scale(1.04); /* butun kartani kattalashtiradi */
+      transition: transform 0.4s ease-in-out; /* sekinlik bilan */
+
+      img {
+        transform: scale(1.08); /* rasmni biroz kattalashtiradi */
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .discount-percentage {
+        transform: scale(0.9); /* biroz kichiklashadi */
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .like-wiew .like-view-icon {
+        transform: scale(0.9); /* u ham kichiklashadi */
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+
+    .product-box:hover {
+      transform: translateY(-8px) scale(1.03); /* tepaga ko'tariladi va biroz kattalashadi */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .product-box:hover .product-b {
+      cursor: pointer;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+//  advertaisment-main
+
+.advertaisment-main {
+  padding: 69px 0 69px 56px;
+
+  width: 100%;
+  height: 500px;
+
+  background: radial-gradient(circle at center, #666262, #111111, #1a1a1a);
+  background-size: 400% 400%;
+  animation: moveBg 7s ease infinite;
+
+  .advertaisment-wrapper {
+    position: relative;
+    span {
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px; /* 125% */
+      color: var(--Button1, #0f6);
+    }
+
+    p {
+      width: 443px;
+      height: 120px;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px; /* 125% */
+      letter-spacing: 1.92px;
+      color: var(--Text, #fafafa);
+    }
+
+    .adv-time {
+      width: 220px;
+      height: 62px;
+
+      // background-color: rgba(0, 255, 102, 0.173);
+    }
+
+    .time-box {
+      width: 62px;
+      height: 62px;
+
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.962);
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      strong {
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 125% */
+        color: var(--Text2, #000);
+      }
+
+      i {
+        color: var(--Text2, #000);
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 163.636% */
+      }
+    }
+
+    .buy-now-btn {
+      margin-top: 40px;
+      width: 171px;
+      height: 56px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 4px;
+      background: var(--Button1, #0f6);
+      cursor: pointer;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+      color: var(--Text, #775a5a);
+    }
+
+    .img-box {
+      width: 568px;
+      height: 330px;
+
+      position: absolute;
+      top: 30px;
+      left: 542px;
+    }
+  }
+}
+
+@keyframes moveBg {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// explore-products-main
+
+.explore-products-main {
+  margin-top: 114px;
+  width: 100%;
+  height: 1026px;
+
+  // background-color: #0f6;
+
+  .flash-sales-top {
+    width: 1300px;
+    height: auto;
+
+    .sales-discount {
+      width: 1255px;
+      height: 105px;
+
+      .discount-left {
+        width: 600px;
+        height: 103px;
+
+        .discount-today {
+          width: 180px;
+          height: 40px;
+          margin-bottom: 20px;
+          .discount-red {
+            width: 20px;
+            height: 40px;
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+          }
+
+          span {
+            margin-left: 16px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            color: var(--Secondary-2, #db4444);
+          }
+        }
+
+        .discount-date-wrapper {
+          width: 100%;
+          height: auto;
+
+          strong {
+            margin-top: 10px;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: 1.44px;
+            color: var(--Text2, #000);
+          }
+          .dynamic-wrapper {
+            margin-left: 87px;
+            width: 302px;
+            height: 50px;
+
+            .dynamic-box {
+              width: 46px;
+              height: 20px;
+
+              span {
+                margin: 0;
+                margin-bottom: 4px;
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 150% */
+                color: var(--Text2, #000);
+              }
+
+              p {
+                margin: 0;
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 93.75% */
+                letter-spacing: 1.28px;
+                color: var(--Text2, #000);
+              }
+            }
+
+            .equal {
+              margin-top: 5px;
+              margin-left: 13px;
+              height: 50px;
+              width: 46px;
+              color: #e07575;
+              font-size: 37px;
+            }
+          }
+        }
+      }
+
+      .discount-right {
+        padding-top: 60px;
+        width: 60px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+    }
+  }
+  .products-wrapper {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between; /* yoki center, gap berib ham ishlaydi */
+    gap: 20px; /* productlar orasida masofa bo‘ladi */
+    width: 100%;
+    height: 350px;
+
+    .product-box {
+      margin-bottom: 20px;
+      position: relative;
+      width: 270px;
+      height: 360px;
+
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      transition: all 0.3s ease; /* animatsiya qo'shildi */
+
+      .product-box-top {
+        width: 270px;
+        height: 250px;
+
+        // a
+        .product-a {
+          position: relative;
+          width: 100%;
+          height: 209px;
+          padding: 12px;
+          box-sizing: border-box;
+
+          .discount-percentage {
+            width: 55px;
+            height: 26px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+
+            span {
+              font-family: Poppins;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 18px; /* 150% */
+              color: var(--Text, #fafafa);
+            }
+          }
+
+          .product-image {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            width: 172px;
+            height: 152px;
+          }
+
+          .view-like-box {
+            width: 34px;
+            height: 60px;
+          }
+        }
+
+        // hover
+
+        // b
+
+        .product-b {
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 41px;
+          border-radius: 0 0 4px 4px;
+          background: var(--Button, #000);
+
+          .cart-butt {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            color: #fff;
+
+            color: whitesmoke;
+          }
+        }
+      }
+
+      .product-box-bott {
+        width: 100%;
+        height: 200px;
+
+        padding: 0 10px 0 10px;
+        box-sizing: border-box;
+
+        span {
+          margin-top: 12px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+          color: #000;
+        }
+
+        .product-price-box {
+          width: 85px;
+          height: 24px;
+          .curr-price {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            color: var(--Secondary-2, #db4444);
+          }
+
+          .down-price {
+            margin-left: 12px;
+
+            color: var(--Button, #4b48486f);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            text-decoration-line: line-through;
+          }
+        }
+      }
+    }
+
+    .product-box:hover {
+      transform: translateY(-8px) scale(1.03); /* tepaga ko'tariladi va biroz kattalashadi */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .product-box:hover .product-b {
+      cursor: pointer;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .view-all-products {
+    margin-top: 470px;
+    width: 100%;
+    height: 56px;
+
+    .view-all-butt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 234px;
+      height: 56px;
+
+      border-radius: 4px;
+      background: var(--Button2, #db4444);
+
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 1000;
+      line-height: 24px; /* 150% */
+      color: var(--Text, #fafafa);
+    }
+  }
+}
+
+// new-arrival-products-main
+
+.new-arrival-products-main {
+  margin-top: 140px;
+  width: 100%;
+  height: 768px;
+
+  .flash-sales-top {
+    width: 1300px;
+    height: auto;
+
+    .sales-discount {
+      width: 1255px;
+      height: 105px;
+
+      .discount-left {
+        width: 600px;
+        height: 103px;
+
+        .discount-today {
+          width: 180px;
+          height: 40px;
+          margin-bottom: 20px;
+          .discount-red {
+            width: 20px;
+            height: 40px;
+            border-radius: 4px;
+            background: var(--Secondary-2, #db4444);
+          }
+
+          span {
+            margin-left: 16px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            color: var(--Secondary-2, #db4444);
+          }
+        }
+
+        .discount-date-wrapper {
+          width: 100%;
+          height: auto;
+
+          strong {
+            margin-top: 10px;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: 1.44px;
+            color: var(--Text2, #000);
+          }
+          .dynamic-wrapper {
+            margin-left: 87px;
+            width: 302px;
+            height: 50px;
+
+            .dynamic-box {
+              width: 46px;
+              height: 20px;
+
+              span {
+                margin: 0;
+                margin-bottom: 4px;
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 150% */
+                color: var(--Text2, #000);
+              }
+
+              p {
+                margin: 0;
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 93.75% */
+                letter-spacing: 1.28px;
+                color: var(--Text2, #000);
+              }
+            }
+
+            .equal {
+              margin-top: 5px;
+              margin-left: 13px;
+              height: 50px;
+              width: 46px;
+              color: #e07575;
+              font-size: 37px;
+            }
+          }
+        }
+      }
+
+      .discount-right {
+        padding-top: 60px;
+        width: 60px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .arrival-wrapper {
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+
+    .arrival-left {
+      width: 610px;
+      height: 600px;
+      border-radius: 4px;
+      background: var(--Button, #000);
+
+      .left-img {
+        width: 511px;
+        height: 511px;
+
+        .text-frame {
+          margin-top: 370px;
+          width: 242px;
+          height: 122px;
+
+          span {
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.72px;
+            color: var(--Text, #fafafaaa);
+          }
+          p {
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            color: var(--Text, #fafafa);
+          }
+          .shop-now {
+            width: 81px;
+            height: 24px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .arrival-right {
+      // margin-left: 30px;
+      width: 610px;
+      height: 600px;
+
+      .arrival-box-a {
+        padding-left: 24px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 284px;
+
+        border-radius: 4px;
+        background: #0d0d0d;
+
+        .box-text {
+          margin-top: 140px;
+          width: 405px;
+          height: 122px;
+
+          span {
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 100% */
+            letter-spacing: 0.72px;
+            color: var(--Text, #fafafa);
+          }
+
+          p {
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            color: var(--Text, #fafafa);
+          }
+
+          .shop-now {
+            cursor: pointer;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            color: #fff;
+          }
+        }
+
+        .box-img {
+          margin-top: 80px;
+          width: 432px;
+          height: 286px;
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+      }
+
+      .arrival-box-b {
+        margin-top: 35px;
+        width: 100%;
+        height: 284px;
+
+        .b-wrapper {
+          border-radius: 4px;
+          background: var(--Button, #000);
+          .b-left {
+            width: 295px;
+            height: 284px;
+
+            background-repeat: no-repeat;
+            background-size: 190px 221px;
+            background-position: center;
+
+            border-radius: 4px;
+
+            .b-left-text {
+              margin-left: 24px;
+              margin-top: 170px;
+              width: 191px;
+              height: 85px;
+
+              span {
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px; /* 100% */
+                letter-spacing: 0.72px;
+                color: var(--Text, #fafafa);
+              }
+
+              p {
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px; /* 150% */
+                color: var(--Text, #fafafa);
+              }
+
+              .b-btn {
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// customer-service-main
+
+.customer-service-main {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  width: 100%;
+  height: auto;
+
+  .service-wrapper {
+    width: 943px;
+    height: 161px;
+
+    .service-box {
+      width: 250px;
+      height: 141px;
+
+      img {
+        background-color: black;
+        border-radius: 16px;
+
+        width: 45px;
+        height: 45px;
+        color: red;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 140% */
+        color: #000;
+      }
+
+      span {
+        color: #000;
+        text-align: center;
+
+        /* Title/14PX Regular */
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+      }
+    }
+  }
+}
