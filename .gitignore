@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+# Environment files
+.env
+# Docker data
+mongo-data/
+# Build folders
+frontend/dist/
+backend/dist/
+# Logs
+*.log
+
