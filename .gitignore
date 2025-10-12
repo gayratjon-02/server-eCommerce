@@ -10,3 +10,4 @@ backend/dist/
 # Logs
 *.log
 
+.DS_Store
