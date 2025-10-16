@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "\ud648",
+    "products": "\uc81c\ud488",
+    "cart": "\uc7a5\ubc14\uad6c\ub2c8",
+    "profile": "\ud504\ub85c\ud544",
+    "searchPlaceholder": "\uac80\uc0c9...",
+    "wishlist": "\uc704\uc2dc\ub9ac\uc2a4\ud2b8",
+    "language": "\uc5b8\uc5b4"
+  },
+  "auth": {
+    "login": "\ub85c\uadf8\uc778",
+    "signup": "\ud68c\uc6d0\uac00\uc785"
+  },
+  "basket": {
+    "items": "\uac1c",
+    "viewCart": "\uc7a5\ubc14\uad6c\ub2c8 \ubcf4\uae30"
+  }
+}

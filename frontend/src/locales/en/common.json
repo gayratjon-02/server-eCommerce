@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "profile": "Profile",
+    "searchPlaceholder": "Search...",
+    "wishlist": "Wishlist",
+    "language": "Language"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign up"
+  },
+  "basket": {
+    "items": "Items",
+    "viewCart": "View cart"
+  }
+}

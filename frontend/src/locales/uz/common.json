@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "cart": "Savat",
+    "profile": "Profil",
+    "searchPlaceholder": "Qidirish...",
+    "wishlist": "Sevimlilar",
+    "language": "Til"
+  },
+  "auth": {
+    "login": "Kirish",
+    "signup": "Ro\u02bbyxatdan o\u02bbtish"
+  },
+  "basket": {
+    "items": "ta",
+    "viewCart": "Savatni ko\u2018rish"
+  }
+}
